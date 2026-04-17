@@ -1,6 +1,9 @@
 Deep Learning e Inteligencia Artificial en Biología
+
 Este repositorio reúne los desarrollos y trabajos prácticos realizados durante el curso de especialización en Deep Learning e
-Inteligencia Artificial aplicada a las Ciencias Biológicas. El enfoque principal es el uso de arquitecturas avanzadas de redes neuronales para resolver problemas complejos en bioinformática, análisis de secuencias y estructura de biomoléculas.
+Inteligencia Artificial aplicada a las Ciencias Biológicas. 
+
+El enfoque principal es el uso de arquitecturas avanzadas de redes neuronales para resolver problemas complejos en bioinformática, análisis de secuencias y estructura de biomoléculas.
 
 Foco del Curso
 El programa aborda el diseño, implementación y evaluación de modelos de aprendizaje profundo aplicados a:

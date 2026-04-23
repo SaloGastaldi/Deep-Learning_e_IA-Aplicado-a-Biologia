@@ -1,0 +1,10 @@
+=== Reporte de Entrenamiento: XOR ===
+
+Pesos Finales: [-2.59011942e-09 -2.59048257e-09]
+Bias Final: 0.0000
+
+Predicciones finales:
+Entrada [0 0] -> Prediccion: 0.5000 (Real: 0)
+Entrada [0 1] -> Prediccion: 0.5000 (Real: 1)
+Entrada [1 0] -> Prediccion: 0.5000 (Real: 1)
+Entrada [1 1] -> Prediccion: 0.5000 (Real: 0)

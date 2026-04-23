@@ -1,0 +1,10 @@
+name: tp1-deep-learning
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
+  - plotly

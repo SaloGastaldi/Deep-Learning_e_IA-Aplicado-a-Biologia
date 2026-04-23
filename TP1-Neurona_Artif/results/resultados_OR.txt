@@ -1,0 +1,10 @@
+=== Reporte de Entrenamiento: OR ===
+
+Pesos Finales: [5.2286863  5.22824776]
+Bias Final: -2.3571
+
+Predicciones finales:
+Entrada [0 0] -> Prediccion: 0.0865 (Real: 0)
+Entrada [0 1] -> Prediccion: 0.9464 (Real: 1)
+Entrada [1 0] -> Prediccion: 0.9464 (Real: 1)
+Entrada [1 1] -> Prediccion: 0.9997 (Real: 1)

@@ -1,70 +1,42 @@
-Deep Learning e Inteligencia Artificial en Biología
+# Deep Learning & AI for Life Sciences 🧬🤖
 
-Este repositorio reúne los desarrollos y trabajos prácticos realizados durante el curso de especialización en Deep Learning e
-Inteligencia Artificial aplicada a las Ciencias Biológicas. 
+This repository showcases advanced implementations of Deep Learning models tailored for biological and chemical research. The projects cover the full spectrum of AI in Biotech: from genomic sequence analysis to de novo drug design and protein structure prediction.
 
-El enfoque principal es el uso de arquitecturas avanzadas de redes neuronales para resolver problemas complejos en bioinformática, análisis de secuencias y estructura de biomoléculas.
+## 🔬 Core Competencies Demonstrated
+- **Structural Biology:** Protein structure prediction using state-of-the-art models (AlphaFold2, RosettaFold).
+- **Generative Chemistry:** Molecular property prediction and generative modeling using ChemBERT and Graph Neural Networks (GNNs).
+- **Sequence Modeling:** Analysis of DNA/Protein sequences with CNNs, LSTMs, and Transformers.
+- **Biophysical Validation:** Integration of computational outputs with structural and physicochemical constraints.
 
-Foco del Curso
+---
 
-El programa aborda el diseño, implementación y evaluación de modelos de aprendizaje profundo aplicados a:
+## 📂 Project Portfolio (Technical Milestones)
 
-Genómica: Análisis de secuencias de ADN y detección de regiones promotoras.
+### 💊 Drug Discovery & Chemoinformatics
+* **Molecular Property Prediction:** Implementation of **Graph-based CNNs** and **Molecular Attention Transformers** to estimate physicochemical properties from SMILES.
+* **Chemical Embeddings:** Use of **ChemBERT** for advanced molecular representation and latent space exploration.
 
-Proteómica: Análisis de alineamientos múltiples, predicción de estructura secundaria y creación de proteínas sintéticas.
+### 🧬 Protein Engineering & Structure
+* **Structural Prediction:** High-accuracy modeling using **AlphaFold2** and **MSA** (Multiple Sequence Alignment) analysis.
+* **Secondary Structure Forecasting:** Sequence-to-structure modeling using **Bidirectional LSTMs and GRUs** (3 and 8-category classification).
+* **Generative Proteomics:** **Variational Autoencoders (VAEs)** for generating synthetic protein sequences with specific functional profiles.
 
-Quimioinformática: Predicción de propiedades físicoquímicas de moléculas pequeñas y representaciones moleculares (Fingerprints, Embeddings).
+### 🧬 Genomics & Sequence Analysis
+* **Regulatory Genomics:** Identification of transcription factor binding sites in **ChIP-Seq data** using **CNNs** with advanced regularization (Batch-norm, Dropout).
+* **Promoter Detection:** Deep MLP architectures for genomic region classification.
 
-Modelado Estructural: Uso de Transformers y modelos de vanguardia como AlphaFold y RosettaFold para la interacción proteína-ligando.
+---
 
-Estructura de Contenidos
+## 🛠️ Technical Stack
+- **Languages:** Python (3.10+)
+- **Deep Learning Frameworks:** PyTorch, Keras, TensorFlow.
+- **Bio/Chemoinformatics:** RDKit, Biopython, Py3Dmol.
+- **Data Science:** Scikit-Learn, Pandas, NumPy, Matplotlib/Seaborn.
 
-El curso se divide en 5 módulos técnicos:
+## 📚 Frameworks & Methodologies
+Projects follow industry standards inspired by:
+* *Deep Learning for the Life Sciences* (Ramsundar et al.).
+* *Deep Learning Foundations and Concepts* (Bishop & Bishop, 2024).
 
-Fundamentos de DL: Perceptrón Multicapa (MLP), Regresión y Clasificación.
-
-Análisis de ADN: Detección de sitios de unión de factores de transcripción mediante CNNs.
-
-Secuencias de Proteínas: Uso de Autoencoders, LSTMs y GRUs para análisis de secuencias y estructuras.
-
-Moléculas Pequeñas: Implementación de Graph-based CNNs, ChemBERT para Smiles y Molecular Attention Transformers.
-
-Predicción Estructural: Aplicación de Transformers para estructura de proteínas e interacción con ligandos.
-
-
-Trabajos Prácticos (Portfolio de TPs)
-
-Cada TP consistió en el desarrollo de código en Python orientado a la resolución de problemas con datos reales:
-
-TP1-TP3: Fundamentos, regresión y clasificación con redes neuronales básicas.
-
-TP4: Detección de regiones promotoras en ADN genómico con MLP.
-
-TP5-TP6: Uso de CNNs y técnicas de Regularización (Batch-norm, Dropout) para sitios de unión ADN-proteína en datos de ChIP-Seq.
-
-TP7: Análisis de Alineamiento de Secuencia Múltiple (MSA) y generación de proteínas sintéticas con Autoencoders.
-
-TP8: Predicción de estructura secundaria (3 y 8 categorías) mediante LSTMs y GRUs.
-
-TP9-TP10: Molecular Embeddings, Graph CNNs y ChemBERT para predicción de propiedades físicoquímicas.
-
-TP11-TP12: Modelado con AlphaFold/RosettaFold y predicción de interacción proteína-ligando.
-
-
-Stack Tecnológico
-
-Lenguaje: Python.
-
-Bibliotecas: PyTorch, TensorFlow/Keras, Scikit-Learn.
-
-Entorno: Jupyter Lab / Notebooks.
-
-
-Bibliografía de Referencia
-
-Deep Learning for the Life Sciences (Ramsundar et al., O’Reilly Media).
-
-Deep Learning Foundations and Concepts (Bishop & Bishop, Springer 2024).
-
-Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (Aurélien Géron).
-
+---
+**Focus:** Bridge the gap between **Biophysics** and **Machine Learning** to accelerate R&D in the Biotech industry.

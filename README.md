@@ -1,8 +1,22 @@
-# Deep Learning & AI for Life Sciences 🧬🤖
+# 🤖 AI for Drug Discovery & Molecular Design 🧬
 
-This repository showcases advanced implementations of Deep Learning models tailored for biological and chemical research. The projects cover the full spectrum of AI in Biotech: from genomic sequence analysis to de novo drug design and protein structure prediction.
+This repository showcases advanced implementations of **Deep Learning models applied to drug discovery, molecular modeling, and biological data analysis**.
+
+The projects focus on transforming **biological and chemical data into actionable insights**, supporting decision-making in biotech and pharmaceutical R&D.
+
+---
+
+## 🎯 Core Focus
+
+- Molecular property prediction  
+- Protein structure modeling  
+- Generative models for molecular design  
+- Sequence-based prediction (DNA / proteins)  
+
+---
 
 ## 🔬 Core Competencies Demonstrated
+
 - **Structural Biology:** Protein structure prediction using state-of-the-art models (AlphaFold2, RosettaFold).
 - **Generative Chemistry:** Molecular property prediction and generative modeling using ChemBERT and Graph Neural Networks (GNNs).
 - **Sequence Modeling:** Analysis of DNA/Protein sequences with CNNs, LSTMs, and Transformers.
@@ -10,33 +24,73 @@ This repository showcases advanced implementations of Deep Learning models tailo
 
 ---
 
-## 📂 Project Portfolio (Technical Milestones)
+## 🧪 Project Portfolio (Use Cases)
 
-### 💊 Drug Discovery & Chemoinformatics
-* **Molecular Property Prediction:** Implementation of **Graph-based CNNs** and **Molecular Attention Transformers** to estimate physicochemical properties from SMILES.
-* **Chemical Embeddings:** Use of **ChemBERT** for advanced molecular representation and latent space exploration.
+### 💊 Molecular Property Prediction & Chemoinformatics
 
-### 🧬 Protein Engineering & Structure
-* **Structural Prediction:** High-accuracy modeling using **AlphaFold2** and **MSA** (Multiple Sequence Alignment) analysis.
-* **Secondary Structure Forecasting:** Sequence-to-structure modeling using **Bidirectional LSTMs and GRUs** (3 and 8-category classification).
-* **Generative Proteomics:** **Variational Autoencoders (VAEs)** for generating synthetic protein sequences with specific functional profiles.
+- Graph-based CNNs and Molecular Attention Transformers for predicting physicochemical properties from SMILES  
+- ChemBERT-based embeddings for molecular representation and latent space exploration  
 
-### 🧬 Genomics & Sequence Analysis
-* **Regulatory Genomics:** Identification of transcription factor binding sites in **ChIP-Seq data** using **CNNs** with advanced regularization (Batch-norm, Dropout).
-* **Promoter Detection:** Deep MLP architectures for genomic region classification.
+👉 **Application:**  
+Prioritization of compounds in early-stage drug discovery and virtual screening.
 
 ---
 
-## 🛠️ Technical Stack
-- **Languages:** Python (3.10+)
-- **Deep Learning Frameworks:** PyTorch, Keras, TensorFlow.
-- **Bio/Chemoinformatics:** RDKit, Biopython, Py3Dmol.
-- **Data Science:** Scikit-Learn, Pandas, NumPy, Matplotlib/Seaborn.
+### 🧬 Protein Structure & Engineering
 
-## 📚 Frameworks & Methodologies
-Projects follow industry standards inspired by:
-* *Deep Learning for the Life Sciences* (Ramsundar et al.).
-* *Deep Learning Foundations and Concepts* (Bishop & Bishop, 2024).
+- AlphaFold2 and MSA-based modeling  
+- Secondary structure prediction using Bidirectional LSTMs and GRUs  
+- Generative protein design using Variational Autoencoders (VAEs)  
+
+👉 **Application:**  
+Understanding structure–function relationships and guiding protein engineering strategies.
 
 ---
-**Focus:** Bridge the gap between **Biophysics** and **Machine Learning** to accelerate R&D in the Biotech industry.
+
+### 🧬 Genomics & Regulatory Modeling
+
+- CNN-based prediction of transcription factor binding sites (ChIP-Seq)  
+- Promoter classification using deep neural networks  
+
+👉 **Application:**  
+Target identification and regulatory genomics analysis.
+
+---
+
+## ⚙️ Technical Approach
+
+- End-to-end workflows: data preprocessing → model training → evaluation  
+- Integration of biological constraints into ML models  
+- Combination of structural biology and AI approaches  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Languages:** Python (3.10+)  
+- **Frameworks:** PyTorch, TensorFlow, Keras  
+- **Bio/Chemoinformatics:** RDKit, Biopython, Py3Dmol  
+- **Data Science:** Scikit-Learn, Pandas, NumPy  
+
+---
+
+## 💼 Industry Relevance
+
+This repository reflects applications of AI in:
+
+- Drug discovery pipelines  
+- Molecular design and optimization  
+- Protein modeling and engineering  
+- Computational support for experimental teams  
+
+---
+
+## 🚀 Positioning
+
+Part of a broader profile focused on:
+
+**AI for Drug Discovery | Molecular Modeling | Computational Biophysics**
+
+---
+
+👩‍🔬 Salomé Gastaldi, PhD  

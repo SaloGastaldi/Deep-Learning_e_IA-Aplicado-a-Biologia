@@ -1,7 +1,6 @@
 # 🤖 AI for Drug Discovery & Molecular Design 🧬
 
-This repository showcases advanced implementations of **Deep Learning models applied to drug discovery, molecular modeling, and biological data analysis**.
-
+This repository presents **Deep Learning applications for drug discovery, molecular modeling, and biological data analysis**.
 The projects focus on transforming **biological and chemical data into actionable insights**, supporting decision-making in biotech and pharmaceutical R&D.
 
 ---
@@ -10,7 +9,7 @@ The projects focus on transforming **biological and chemical data into actionabl
 
 - Molecular property prediction  
 - Protein structure modeling  
-- Generative models for molecular design  
+- Generative molecular design  
 - Sequence-based prediction (DNA / proteins)  
 
 ---
@@ -23,7 +22,18 @@ The projects focus on transforming **biological and chemical data into actionabl
 - **Biophysical Validation:** Integration of computational outputs with structural and physicochemical constraints.
 
 ---
+## 🧪 Example Pipeline
 
+**Molecular Property Prediction Workflow**
+
+- Input: SMILES dataset  
+- Processing: RDKit featurization  
+- Model: Graph Neural Network (GNNs) / Transformer  
+- Output: Predicted physicochemical properties  
+
+👉 Use case: Prioritization of compounds before experimental validation
+
+---
 ## 🧪 Project Portfolio (Use Cases)
 
 ### 💊 Molecular Property Prediction & Chemoinformatics
@@ -92,5 +102,11 @@ Part of a broader profile focused on:
 **AI for Drug Discovery | Molecular Modeling | Computational Biophysics**
 
 ---
+## 📂 Project Structure
 
+- MLP-based models for biological data  
+- Deep learning pipelines for genomics (ChIP-Seq)  
+- PyTorch workflows for bioinformatics  
+
+---
 👩‍🔬 Salomé Gastaldi, PhD  

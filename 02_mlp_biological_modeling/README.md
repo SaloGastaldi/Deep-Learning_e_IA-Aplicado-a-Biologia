@@ -123,5 +123,5 @@ in real-world deep learning workflows.
 
 👩‍💻 Author
 
-María Salomé Gastaldi
-Computational Biology · AI for Biotechnology
+Salomé Gastaldi, PhD
+Computational Biophysics | AI for Drug Discovery

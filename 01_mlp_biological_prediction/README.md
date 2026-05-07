@@ -105,7 +105,6 @@ All generated artifacts are stored in `/results`:
 ├── results/
 ├── environment.yml
 ├── README.md
-└── TP1-NeuronaArtif.pdf
 ```
 
 ---

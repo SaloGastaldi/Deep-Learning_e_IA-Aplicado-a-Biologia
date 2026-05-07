@@ -11,29 +11,28 @@ forward propagation, backpropagation, optimization, and the impact of key design
 ---
 
 ## 📁 Project Structure
+```text
 02_mlp_biological_modeling/
-│
 ├── notebooks/
-│ ├── mlp_regression_non_linear_modeling.ipynb
-│ └── mlp_multiclass_classification_from_scratch.ipynb
-│
+│   ├── mlp_regression_non_linear_modeling.ipynb
+│   └── mlp_multiclass_classification_from_scratch.ipynb
 ├── results/
-│ ├── trained_prediction.png
-│ ├── epochs_comparison.png
-│ ├── lr_comparison.png
-│ ├── architecture_comparison.png
-│ ├── loss_epochs.png
-│ ├── loss_lr.png
-│ ├── loss_architecture.png
-│ ├── dataset_tp3.png
-│ ├── prediction_map_tp3.png
-│ ├── confusion_matrix_tp3.png
-│ ├── loss_tp3.png
-│ ├── loss_minibatch.png
-│ └── loss_relu.png
-│
+│   ├── trained_prediction.png
+│   ├── epochs_comparison.png
+│   ├── lr_comparison.png
+│   ├── architecture_comparison.png
+│   ├── loss_epochs.png
+│   ├── loss_lr.png
+│   ├── loss_architecture.png
+│   ├── dataset_tp3.png
+│   ├── prediction_map_tp3.png
+│   ├── confusion_matrix_tp3.png
+│   ├── loss_tp3.png
+│   ├── loss_minibatch.png
+│   └── loss_relu.png
 ├── environment.yml
 └── README.md
+```
 
 
 ---

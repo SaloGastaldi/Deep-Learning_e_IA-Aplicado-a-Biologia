@@ -1,138 +1,81 @@
-# 🧠 MLP for Biological Modeling
+# 🧠 MLP for Biological Modeling (NumPy from Scratch)
 
-## 🎯 Objective
+This project implements Multi-Layer Perceptrons (MLPs) from scratch using NumPy, applied to biological-inspired regression and classification tasks.
 
-This project explores how neural networks learn by implementing **Multi-Layer Perceptrons (MLPs) from scratch using NumPy**.
-
-The goal is not just to train models, but to deeply understand:
-- Forward & backward propagation
-- Optimization dynamics
-- Impact of architecture and hyperparameters
-- Role of activation functions in learning behavior
-
-Applications:
-- 📈 Non-linear regression
-- 🎯 Multi-class classification
+It focuses on understanding the internal mechanics of deep learning models without relying on high-level frameworks.
 
 ---
 
-## 📁 Project Structure
+## 🎯 Objectives
 
-```text
-02_mlp_biological_modeling/
-├── notebooks/
-│   ├── mlp_regression_non_linear_modeling.ipynb
-│   └── mlp_multiclass_classification_from_scratch.ipynb
-├── results/
-│   ├── trained_prediction.png
-│   ├── epochs_comparison.png
-│   ├── lr_comparison.png
-│   ├── architecture_comparison.png
-│   ├── loss_epochs.png
-│   ├── loss_lr.png
-│   ├── loss_architecture.png
-│   ├── dataset_tp3.png
-│   ├── prediction_map_tp3.png
-│   ├── confusion_matrix_tp3.png
-│   ├── loss_tp3.png
-│   ├── loss_minibatch.png
-│   └── loss_relu.png
-├── environment.yml
-└── README.md
-```
+- Implement forward and backward propagation manually
+- Understand gradient-based optimization in neural networks
+- Analyze impact of architecture and hyperparameters
+- Study model behavior in non-linear biological systems
 
 ---
 
-## ⚙️ Setup
+## 🧬 Biological Context
 
-```bash
-conda env create -f environment.yml
-conda activate mlp-biological-modeling
-```
+The models simulate simplified biological systems such as:
 
----
-
-## 📊 Results Overview
-
-### 📈 Non-linear Regression
-
-A custom MLP learns a piecewise non-linear function.
-
-**Key insights:**
-- Captures complex non-linear patterns
-- Strong dependency on:
-  - learning rate
-  - number of epochs
-  - network architecture
-
-**Results:**
-- `trained_prediction.png` → model fit
-- `epochs_comparison.png` → training duration effect
-- `lr_comparison.png` → learning rate sensitivity
-- `architecture_comparison.png` → model capacity impact
-- `loss_*` plots → training dynamics
+- Non-linear biological response functions
+- Multi-class classification of biological states
+- Abstract representations of molecular interactions
 
 ---
 
-### 🎯 Multi-class Classification
+## ⚙️ Technical Approach
 
-The model classifies 2D points into angular regions.
-
-#### ⚠️ Baseline Model (Full Batch + Sigmoid)
-- Slow convergence  
-- Limited decision boundary quality  
-- ~63% accuracy  
-
-**Outputs:**
-- `loss_tp3.png`
-- `confusion_matrix_tp3.png`
+- NumPy-based neural network implementation
+- Fully connected architectures (MLPs)
+- Manual backpropagation
+- Gradient descent optimization
+- Softmax and cross-entropy loss
 
 ---
 
-#### 🚀 Optimized Model (Mini-batch + ReLU)
+## 🧪 Experiments
 
-Key improvements:
-- ✔ Mini-batch gradient descent  
-- ✔ ReLU activation  
-- ✔ Improved optimization stability  
+### Regression
+- Non-linear function approximation
+- Sensitivity to learning rate and architecture
 
-**Results:**
-- ~99.8% accuracy  
-- Fast convergence  
-- Well-defined decision boundaries  
-
-**Outputs:**
-- `dataset_tp3.png`
-- `prediction_map_tp3.png`
-- `confusion_matrix_tp3.png`
-- `loss_minibatch.png`
-- `loss_relu.png`
+### Classification
+- Multi-class decision boundaries
+- Optimization improvements using ReLU + mini-batch training
 
 ---
 
-## 🧠 Key Learnings
+## 📊 Key Results
 
-- Backpropagation works as a modular computational graph
-- Activation functions drastically affect learning dynamics
-- Optimization strategy (batch vs mini-batch) is critical
-- Hyperparameter tuning is often as important as architecture
-- Small implementation details strongly impact performance
+- Strong performance in controlled environments
+- Improved convergence with ReLU and mini-batch training
+- ~99% accuracy in optimized classification tasks
+- Clear decision boundary formation in separable problems
 
 ---
 
-## 🚀 Takeaway
+## 🧠 Key Insights
 
-A simple MLP goes from:
+- Architecture design strongly affects learning stability
+- Activation functions play a critical role in convergence
+- Mini-batch training improves generalization
+- Backpropagation implementation provides deep understanding of learning dynamics
 
-⚠️ ~63% accuracy (unstable training)  
-→  
-🚀 ~99.8% accuracy (stable + optimized training)
+---
 
-This highlights how **architecture + optimization choices define model success**, even in simple neural networks.
+## 🚀 Industry Relevance
+
+Relevant to:
+
+- Machine learning engineering roles
+- Computational biology applications
+- AI system design in biotech and pharma
 
 ---
 
 ## 👩‍💻 Author
 
-**Salomé Gastaldi, PhD**  
-Computational Biophysics | AI for Drug Discovery
+Salomé Gastaldi, PhD  
+Computational Biophysics · AI for Drug Discovery

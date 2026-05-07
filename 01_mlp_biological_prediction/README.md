@@ -96,16 +96,17 @@ All generated artifacts are stored in `/results`:
 ---
 
 ## 📂 Project Structure
+## 📂 Project Structure
+
+```text
 01_mlp_biological_prediction/
-│
 ├── notebooks/
-│ └── mlp_binary_classification_basics.ipynb
-│
+│   └── mlp_binary_classification_basics.ipynb
 ├── results/
-│
 ├── environment.yml
 ├── README.md
 └── TP1-NeuronaArtif.pdf
+```
 
 ---
 

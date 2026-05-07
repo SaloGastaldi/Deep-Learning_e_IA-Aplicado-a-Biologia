@@ -1,16 +1,23 @@
 # 🧠 MLP for Biological Modeling
 
-Implementation of **Multi-Layer Perceptrons (MLPs) from scratch (NumPy)** applied to:
+## 🎯 Objective
 
+This project explores how neural networks learn by implementing **Multi-Layer Perceptrons (MLPs) from scratch using NumPy**.
+
+The goal is not just to train models, but to deeply understand:
+- Forward & backward propagation
+- Optimization dynamics
+- Impact of architecture and hyperparameters
+- Role of activation functions in learning behavior
+
+Applications:
 - 📈 Non-linear regression
 - 🎯 Multi-class classification
-
-This project focuses on understanding **core deep learning mechanics**, including:
-forward propagation, backpropagation, optimization, and the impact of key design choices such as **learning rate, architecture, activation functions, and training strategies**.
 
 ---
 
 ## 📁 Project Structure
+
 ```text
 02_mlp_biological_modeling/
 ├── notebooks/
@@ -34,7 +41,6 @@ forward propagation, backpropagation, optimization, and the impact of key design
 └── README.md
 ```
 
-
 ---
 
 ## ⚙️ Setup
@@ -42,85 +48,91 @@ forward propagation, backpropagation, optimization, and the impact of key design
 ```bash
 conda env create -f environment.yml
 conda activate mlp-biological-modeling
+```
 
-📊 Results
+---
 
-All results are generated from the final optimized implementations and reflect trained models only.
+## 📊 Results Overview
 
-📈 Regression — Non-linear Function Approximation
+### 📈 Non-linear Regression
 
-A custom MLP is used to approximate a piecewise non-linear function.
+A custom MLP learns a piecewise non-linear function.
 
-🔍 Key Insights
-The model successfully captures non-linear behavior
-Performance depends strongly on:
-number of epochs
-learning rate
-network architecture
-📊 Outputs
-Final prediction vs target → trained_prediction.png
-Hyperparameter analysis:
-Epochs → epochs_comparison.png
-Learning rate → lr_comparison.png
-Architecture → architecture_comparison.png
-Loss evolution:
-loss_epochs.png
-loss_lr.png
-loss_architecture.png
-🎯 Classification — Multi-Class Angular Regions
+**Key insights:**
+- Captures complex non-linear patterns
+- Strong dependency on:
+  - learning rate
+  - number of epochs
+  - network architecture
 
-The MLP is trained to classify 2D points into three angular regions.
+**Results:**
+- `trained_prediction.png` → model fit
+- `epochs_comparison.png` → training duration effect
+- `lr_comparison.png` → learning rate sensitivity
+- `architecture_comparison.png` → model capacity impact
+- `loss_*` plots → training dynamics
 
-⚠️ Baseline Model (Full Batch + Sigmoid)
-Slow convergence
-Limited performance (~63% accuracy)
-Difficulty modeling decision boundaries
+---
 
-Outputs:
+### 🎯 Multi-class Classification
 
-Loss curve → loss_tp3.png
-Confusion matrix → confusion_matrix_tp3.png
-🚀 Optimized Model (Mini-batch + ReLU)
+The model classifies 2D points into angular regions.
 
-A major improvement is achieved by introducing:
+#### ⚠️ Baseline Model (Full Batch + Sigmoid)
+- Slow convergence  
+- Limited decision boundary quality  
+- ~63% accuracy  
 
-✔ Mini-batch gradient descent
-✔ ReLU activation
-✔ Better optimization dynamics
-📊 Results
-Accuracy: ~99.8%
-Fast and stable convergence
-Clear and sharp decision boundaries
-📊 Outputs
-Dataset visualization → dataset_tp3.png
-Prediction map → prediction_map_tp3.png
-Confusion matrix → confusion_matrix_tp3.png
-Loss curves:
-loss_minibatch.png
-loss_relu.png
-🧠 Key Learnings
-✔ Backpropagation implemented from scratch
-✔ Softmax + Cross-Entropy correctly derived
-✔ Hyperparameter tuning is critical
-✔ Activation functions drastically impact performance
-✔ Mini-batch training improves convergence and stability
-🚀 Takeaway
+**Outputs:**
+- `loss_tp3.png`
+- `confusion_matrix_tp3.png`
 
-This project demonstrates how careful design choices transform a model from:
+---
 
-⚠️ Moderate performance (~63%)
-→
-🚀 Near-perfect classification (~99.8%)
+#### 🚀 Optimized Model (Mini-batch + ReLU)
 
-It highlights the importance of:
+Key improvements:
+- ✔ Mini-batch gradient descent  
+- ✔ ReLU activation  
+- ✔ Improved optimization stability  
 
-model architecture
-optimization strategy
-activation functions
+**Results:**
+- ~99.8% accuracy  
+- Fast convergence  
+- Well-defined decision boundaries  
 
-in real-world deep learning workflows.
+**Outputs:**
+- `dataset_tp3.png`
+- `prediction_map_tp3.png`
+- `confusion_matrix_tp3.png`
+- `loss_minibatch.png`
+- `loss_relu.png`
 
-👩‍💻 Author
+---
 
-Salomé Gastaldi, PhD
+## 🧠 Key Learnings
+
+- Backpropagation works as a modular computational graph
+- Activation functions drastically affect learning dynamics
+- Optimization strategy (batch vs mini-batch) is critical
+- Hyperparameter tuning is often as important as architecture
+- Small implementation details strongly impact performance
+
+---
+
+## 🚀 Takeaway
+
+A simple MLP goes from:
+
+⚠️ ~63% accuracy (unstable training)  
+→  
+🚀 ~99.8% accuracy (stable + optimized training)
+
+This highlights how **architecture + optimization choices define model success**, even in simple neural networks.
+
+---
+
+## 👩‍💻 Author
+
+**Salomé Gastaldi, PhD**  
 Computational Biophysics | AI for Drug Discovery

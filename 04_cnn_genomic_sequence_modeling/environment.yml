@@ -1,0 +1,24 @@
+name: cnn-genomic-sequence-modeling
+
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+
+  # Core scientific stack
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+
+  # Deep learning
+  - pytorch
+
+  # Bioinformatics
+  - biopython
+
+  # Notebook environment
+  - jupyter

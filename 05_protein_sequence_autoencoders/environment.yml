@@ -1,0 +1,21 @@
+name: protein-sequence-autoencoders
+
+channels:
+  - conda-forge
+  - pytorch
+
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - biopython
+  - scikit-learn
+  - pytorch
+  - torchvision
+  - jupyter
+  - ipykernel
+  - pip
+
+  - pip:
+      - logomaker
